@@ -1,0 +1,21 @@
+h1,h2,p { 
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 100; 
+}
+
+div {
+    text-align: center;
+}
+
+#subject {
+    font-size: 50px;
+}
+
+
+#description {
+    font-size: 30px;
+}
+
+#title {
+    font-size: 40px;
+}
