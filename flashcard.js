@@ -73,4 +73,5 @@ window.addEventListener('load', function () {
     }
     window.addEventListener('click', derp) 
     window.addEventListener('keypress', derp) 
+    window.addEventListener('touchend', derp) 
 })
