@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+'''
+File: fc2json.py
+Author: Kristoffer Dalby
+Description: Tiny script for converting flashcard format to json.
+'''
 
 import sys, json
 
