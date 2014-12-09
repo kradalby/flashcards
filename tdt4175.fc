@@ -73,3 +73,63 @@ Productivity: Measurs how efficient a person, machine, factory or system is. Pro
 Total cost of ownership: The sum of all costs associated with a information system during its lifetime. Support and hardware included. Used to evaulate the system.
 CIO/Chief information officer: Responsible for the information systems in a organization. Responsible to hire good people and choose technologies and equipment.
 B2C: Business to customer, cheaper costs by eliminating middlemen.
+Six stages consumers experience in the sales life cycle: Search and identification, selection and negotiation, Purchasing products and services electronically, product and service delivery and After-sales service.
+Traditional commerce to e-commerce: Handle customers privacy, get the customers trust and handle globalization.
+Trust-building strategies: Build long term relationship, Tell them how old you are and publish information on earlier trusted users.
+Market segmentation: Identifying different segments of a marked. Allows for spesific advertising.
+WAP/Wireless application protocol: Old shit that noone uses. Was suppose to be the mobile version of WWW.
+Charge card: American Express, no limit, you get invoiced the amount you use.
+Smart card: New type of Credit, Charge, Debit card with a chip in addition to the magnet strip.
+P-card: Company card, usualy issued to employees who need to buy stuff for the company.
+e/m-commerce challenges: Cultural, Language, Time/Distance, infrastructure, Money and local law.
+Infrastructure e-commerce: Internet, network, E-commerce software, server software, server OS and server hardware.
+EIS/Enterprise information system:
+Basic transaction processing activities: Datacollecting, dataediting, datamanipulating, datastoring and documentproduction.
+BPS/Batch processing system: Transactions are stored for a period of time and run at the same time. Example, salary or banking transactions.
+OLTP/Online transaction processing: Transactions are run right away.
+SME/SMB/Small and medium enterprises: small shits
+Multinatonal ERP: Different languages/cultures, different infrastructures/IS, different laws/rules, different currency.
+MRP/Materials requirement planning: Planning the use of materials, the time and amount that is needed for a supplier and the type.
+SCM/Supply chain management: Planning, executing and control of activities related to commodity supplies, creating finished products, storing, and delivery of products.
+SCM processes: Sales forcasting, sales and operations plan, demand management, detailed scheduling, purchasing, production, sales ordering.
+General ledger: Overview of customers owing money and who has paid. Hovedregnskap. ERP collects transaction data from every module.
+Managerial accounting: Use history and estimated data to aid the leadership in a organization in making decisions.
+Financial accounting: Use all financial data and transactions to create rapports and press releases on how the company is doing.
+Sales ordering: Add products to the store, set price, set amount, calculate the total cost, confirm customers credit. Handle edgecases, like out of stock.
+Satisficing  model: Good but not optimal solution.
+Intelligence and design DS: Intelligence, find possible solutions and problems, Design, develop alternate solutions to problems.
+MIS reports: Scheduled, Key-indicator, Demand, Exception, Drill-down report.
+Financial MIS: Integrate financial and operational information, easy access, instant access, multiple dimentions(time, geo), analyse history/current activity and monitor funds.
+Manufacturing MIS: Design and project, master project planning, inventory control, process control(CAM, CIM, FMS), Quality control and testing.
+Marketing MIS: IS that supports admin activities in productiondevelopment, distribution, price descision, effectiv advertising and salesprog.
+Human resource MIS: IS that supports employees.
+Accounting MIS: IS that controlls dept, accounts recievable, salaries.
+GIS/Geographic information system: Collects, stores, manipulates and gives access to geo information. Shows data based on location.
+Problem solving: Intelligence, Design, Choice, Implementation, Monitoring
+Decision making: Three first stages of problem solving: Intelligens, design and choice.
+Structured problem: You know the important factors, example create salarychecks.
+Unstructured problem: Unclear facts, example training a new employee.
+Data-driven DSS: Quality reports based on the organizations database.
+Model-driven DSS: Math based and quantitativ analysis.
+What-if analysis: Different parameters in a model for observing different results.
+Goal-seeking analysis: Different parameters in a model for a spesific result.
+Components of a DSS: Database(qualitative), Modelbase(quantitative), User interface.
+GSS/Group support system: Softwareapplication which uses most systems from DSS and some additional group features. Anonymous input, parallel communications and flexibility.
+Fundamental uses for ESS: Define a vision for the organization, stratigic planning, crisis management.
+COP/Community of practice: Create, store and share knowledge. Dedicated to share practice. I.e. open-source.
+CKO/Chief knowledge officer: Responsible for the KMS in a organization.
+Vision system: Facial recognition and 3D generating software.
+Levels of voice recognition: Fonem, Ord, Setning.
+Neural network: Try to replicate or simulate the functions of a human brain.
+Components of an expert system: Knowledge base, Inference engine, Explanation facility, knowledge acquisition facility and user interface.
+Knowledge base: Save all relevant information, data, rules, cases and relationships for the expert system.
+Inference engine: Expands the information we get in and seek answers from the knowledge base.
+Explanation Facility: Creates an overview of the inference process.
+Knowledge acquistion facility: Feed information in here. Humans use this shit.
+User interface: <- User interface.
+Expert system rule: Connects a argument to a action. IF-THEN.
+Expert system case: Case is a premade model for a problem. We can find simular cases to our problem and modify them to use on our problem.
+Informatics: Specialized system which combines old disiplins like medicine with new like computers.
+Domain expert: A person who is an expert on the knowledge we are using for our system.
+Knowledge engineer: The person who implements the expert system.
+Knowledge user: Users of the expert system.
