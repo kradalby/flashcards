@@ -21,14 +21,15 @@ System performance: A performance measure based on efficiency and effectiveness.
 KMS/Knowledge management system: A organized collection of humans, software, databases, devices and procedures that is used to create, store and use organizational knowledge and experience.
 CBIS/CIS/Computer-based information system: A simple collection of hardware, software, databases, telecoms, humans and procedures which is used to collect, edit, store and process data to information.
 DSS/Decision support system: A organized collection of humans, procedures, software, databases and devices which supports a problem spesific decision process. Do the right thing.
-MIS/Management information system:  Do things right.
+MIS/Management information system: Do things right.
 Intranet: Internal collection of websites in a organization which helps people share information and collaborate on projects.
 Extranet: External collection of website owned by a organization to collaborate with users from outside of the organization.
 e-commerce: Using electronics to buy things, and do business. Example: Amazon
-ERP/Enterprise Resource Planning: 
+ERP/Enterprise Resource Planning: A collection of integrated enterprise application used to manage business and automate many back office functions.
+Back office: Generally considered to be the technology, service and human resources to manage a company itself.
 TPS/Transaction Processing Systems: Handles payments to employees or from customers. Business transactions.
-ESS/Executive Support Systems: 
-OAS/Office Automation Systems: 
+ESS/Executive Support Systems: Specialized DSS system for executive officers. It generates special reports. It consists of hardware, software, data procedures and humans.
+OAS/Office Automation Systems: Software and hardware to create, collect, store, manipulate and relay office information needed for accomplishing basic tasks.
 Virtual reality: A simulation of a real or not real environment that can be experienced in three dimensions.
 Re-mission: Game developed to help children and young adults fighting cancer created by HopeLab.
 Computer literacy: Knowledge about a computer system and its accessories and how they work.
@@ -42,8 +43,8 @@ Value chain: A series of activities. Incomming logistics, warehouse and storage,
 Supply chain: A system consisting of organizations, people, activities, information and resources involved in hte process of moving a product or service from supplier to customer.
 CRM/Customer relationship management: A model which describes how to handle a organizations current and future customers. It involves technology to handle organizing, automating and syncronizing sale, advertising and support.
 Reengineering/process redesign: A big restructuring of business processes, ogranization structure, information systems and values. The point is to have a breakthrough in buisness results.
-User satisfaction: 
-TAM/Technology acceptance model:
+User satisfaction: Measure of how useful a data/information system is.
+TAM/Technology acceptance model: Models how users come to accept and use a technology.
 Continouos improvement: Always look for ways to improve the business process and rise the value of our product or service.
 Technology infusion: A measure on how deeply integrated the technology is.
 Technology diffusion: A messure on how wide spread the technology is.
@@ -133,3 +134,4 @@ Informatics: Specialized system which combines old disiplins like medicine with 
 Domain expert: A person who is an expert on the knowledge we are using for our system.
 Knowledge engineer: The person who implements the expert system.
 Knowledge user: Users of the expert system.
+Game theory: Use of information system for developing competetive strategies to reach goals.
