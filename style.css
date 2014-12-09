@@ -8,9 +8,9 @@ div {
 }
 
 #subject {
-    font-size: 50px;
+    margin: 5px;
+    font-size: 40px;
 }
-
 
 #description {
     font-size: 30px;
