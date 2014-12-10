@@ -84,7 +84,7 @@ Smart card: New type of Credit, Charge, Debit card with a chip in addition to th
 P-card: Company card, usualy issued to employees who need to buy stuff for the company.
 e/m-commerce challenges: Cultural, Language, Time/Distance, infrastructure, Money and local law.
 Infrastructure e-commerce: Internet, network, E-commerce software, server software, server OS and server hardware.
-EIS/Enterprise information system:
+EIS/Enterprise information system: Improves the functions of an enterprise business process. High QoS, large amounts of data, capable of supporting large and complex organizations/enterprises.
 Basic transaction processing activities: Datacollecting, dataediting, datamanipulating, datastoring and documentproduction.
 BPS/Batch processing system: Transactions are stored for a period of time and run at the same time. Example, salary or banking transactions.
 OLTP/Online transaction processing: Transactions are run right away.
