@@ -14,27 +14,24 @@ var Cards = (function() {
         var subjectElement = document.querySelector("#subject").children[0]
         subjectElement.innerHTML = data.subject
     
-        var first = Object.keys(data.cards)[0]
+        var first = Object.keys(data.cards)[Math.floor(Math.random() * Object.keys(data.cards).length) + 1]
     
         render_card(first, data.cards[first])
     
     }
     
-    var render_card = function (title, desc, left) {
+    var render_card = function (title, desc) {
         var titleElement = document.querySelector("#title").children[0]
         var descElement = document.querySelector("#description").children[0]
-        var leftElement = document.querySelector("#left").children[0]
     
         titleElement.innerHTML = title
         descElement.innerHTML = desc
         descElement.hidden = true
-        leftElement.innerHTML = left
     }
     
     var next_card = function () {
         var title = document.querySelector("#title").children[0].innerHTML
-        var keys = Object.keys(data.cards)
-        shuffleArray(keys)
+        var keys = shuffleArray(Object.keys(data.cards))
         var current = keys.indexOf(title)
         var nextIndex = current+1
 
@@ -43,8 +40,7 @@ var Cards = (function() {
         }
 
         var next = keys[nextIndex]
-        var left = nextIndex + "/" + keys.length
-        render_card(next, data.cards[next], left)
+        render_card(next, data.cards[next])
     }
 
     var load_data = function(file) {
