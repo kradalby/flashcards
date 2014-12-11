@@ -13,7 +13,9 @@ div {
 }
 
 #description {
+    margin: 0 auto;
     font-size: 30px;
+    width: 700px;
 }
 
 #title {

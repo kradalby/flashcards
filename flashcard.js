@@ -1,3 +1,13 @@
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+}
+
 var Cards = (function() {
     
     var render_page = function (data) {
@@ -22,6 +32,7 @@ var Cards = (function() {
     var next_card = function () {
         var title = document.querySelector("#title").children[0].innerHTML
         var keys = Object.keys(data.cards)
+        shuffleArray(keys)
         var current = keys.indexOf(title)
         var nextIndex = current+1
 
