@@ -20,13 +20,15 @@ var Cards = (function() {
     
     }
     
-    var render_card = function (title, desc) {
+    var render_card = function (title, desc, left) {
         var titleElement = document.querySelector("#title").children[0]
         var descElement = document.querySelector("#description").children[0]
+        var leftElement = document.querySelector("#left").children[0]
     
         titleElement.innerHTML = title
         descElement.innerHTML = desc
         descElement.hidden = true
+        leftElement.innerHTML = left
     }
     
     var next_card = function () {
@@ -41,7 +43,8 @@ var Cards = (function() {
         }
 
         var next = keys[nextIndex]
-        render_card(next, data.cards[next])
+        var left = nextIndex + "/" + keys.length
+        render_card(next, data.cards[next], left)
     }
 
     var load_data = function(file) {
