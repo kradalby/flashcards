@@ -1,0 +1,18 @@
+<blockquote>: for long quotes
+<q>: for quotes
+<abbr>: abbrevations or acronyms, NTNU
+<cite>: when you referring to a book, paper, film etc.
+<dfn>: defining terminology
+<address>: address physical
+Image rules: Right format, right size, use pixles.
+<figure>: Contain images and their captions with <figcaption>
+<dl>: Definition list, <dt><dd></dd></dt>
+GET paramater in url: ?something=somethang
+CSS core rendring principles: 
+HTTP request methods: HEAD, GET, POST, PUT, DELETE, OPTIONS, CONNECT
+Popup title: Title parameter within a tag to have hover title.
+Box model: Content, padding, border, margin
+CSS specifitaion: External, Embedded, Inline
+Pseudo-elements: 
+Pseudo-classes:
+
