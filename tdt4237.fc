@@ -1,0 +1,42 @@
+Authentication: Prove that you are the identity you say you are.
+Identification: Tell that you are someone.
+Pretexting:
+Phishing:
+Eavesdropping:
+Captcha:
+Two-factor authentication:
+Kerberos:
+Needham-Schroeder:
+7 touchpoints: Code review, Architectural risk, Penetration test, Risk-based security tests, Abuse cases, security requirements, security operations
+BAN logic:
+Basic key managmenent:
+Access Control Lists:
+Groups vs roles ACL:
+Sandboxing:
+Proof carrying code:
+One-way function:
+Security model:
+Bell LaPadula:
+Mandatory Access Control:
+Discretionary Access Control:
+High/Low-water-mark:
+Biba:
+Multilevel security:
+Multilateral security:
+The lattice model:
+The Chineese wall:
+Spiders, robots, crawlers:
+Application entry points: Attack surface
+Web application fingerprints: Web server information
+HTTP Methods: GET, POST, PUT, DELETE, TRACE, HEAD, OPTIONS, CONNECT
+SQL injection:
+Rainbow tables:
+CSRF:
+XSS:
+DoS:
+Principle of least privilege:
+Attack surface:
+Zero-day vulnerability:
+Attack tree:
+Risk management framework: Categorize, Select, Implement, Assess, Authorize, Monitor
+Three pillars: Risk management, Touchpoints, Knowledge
