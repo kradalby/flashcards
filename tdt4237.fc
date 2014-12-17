@@ -1,42 +1,39 @@
 Authentication: Prove that you are the identity you say you are.
 Identification: Tell that you are someone.
-Pretexting:
-Phishing:
-Eavesdropping:
-Captcha:
-Two-factor authentication:
-Kerberos:
-Needham-Schroeder:
+Pretexting: False motive, Pretending to be somebody you are not, to get something you probably shouldnt have, to use in a way that is probably wrong
+Phishing: Try to trick someone in to a false website to get their information.
+Eavesdropping: Offer free WiFi to harvest passwords and other data.
+Captcha: Completely Automated Public Turing test to tell Computers and Humans Apart
+Two-factor authentication: Use two different things to authenticate you, usualy something you have and something you know.
+Kerberos: Network auth protocol, auth over non-secure network. Both client and server identifies eachother. Protect against eavesdropping and replay attack, not timing.
+Needham-Schroeder: Like Kerberos, but uses nounces instead of timestamps.
 7 touchpoints: Code review, Architectural risk, Penetration test, Risk-based security tests, Abuse cases, security requirements, security operations
-BAN logic:
-Basic key managmenent:
-Access Control Lists:
-Groups vs roles ACL:
-Sandboxing:
-Proof carrying code:
-One-way function:
-Security model:
-Bell LaPadula:
-Mandatory Access Control:
-Discretionary Access Control:
-High/Low-water-mark:
-Biba:
-Multilevel security:
-Multilateral security:
-The lattice model:
-The Chineese wall:
-Spiders, robots, crawlers:
+Access Control Lists: Who can access what.
+Groups vs roles ACL: A group is a list of principals, a role is one or more principals that a role may use.
+Sandboxing: Running stuff in a seperate container.
+Proof carrying code: Code that carries a proof that it will not violate local security policy.
+One-way function: Passwords should be encrypted/hashed one way, they should not be reversible.
+Bell LaPadula: A security model that values confidentiality, no read up, no write down.
+Mandatory Access Control: The system speficies which subject can access specific data objects.
+Discretionary Access Control: Unix file model, access control is controlled by the owner of the object.
+High-water-mark: Under high-water mark, any object less than the user's security level can be opened, but the object is relabeled to reflect the highest security level currently open. Hence the name.
+Low-water-mark: Opposite of High-water-mark
+Biba: A security model that values integrity, no read down, no write up.
+Multilevel security: Different people can access different stuff.
+The lattice model: MAC, Subject is only allowed to access an object if he has greater or equal sec level than the object.
+The Chineese wall: A security model where read/write access to files is governed by membership of data in conflict-of-interest classes and datasets. This is the basic model used to provide both privacy and integrity for data.
+Spiders, robots, crawlers: Information gathering
 Application entry points: Attack surface
 Web application fingerprints: Web server information
 HTTP Methods: GET, POST, PUT, DELETE, TRACE, HEAD, OPTIONS, CONNECT
-SQL injection:
-Rainbow tables:
-CSRF:
-XSS:
-DoS:
-Principle of least privilege:
-Attack surface:
-Zero-day vulnerability:
-Attack tree:
+SQL injection: Using poorly sanitized inputfields to inject SQL code to get more information than you should.
+Rainbow tables: Giant hashtables of precalculated hashes, usualy MD5
+CSRF: Trick a user to click a link which executes stuff on a different site. A mail.
+XSS: Use a website a user trusts to execute malicious code.
+DoS: Make a service unavailable by overloading the servers or network.
+Principle of least privilege: Processes should only be able to access exactly what they need, nothing more.
+Attack surface: Every surface of an application which can be used for a potential attack.
+Zero-day vulnerability: A vulnerability that currently has no fix.
+Attack tree: A tree which describes the current threats to a system.
 Risk management framework: Categorize, Select, Implement, Assess, Authorize, Monitor
 Three pillars: Risk management, Touchpoints, Knowledge
