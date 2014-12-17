@@ -8,6 +8,7 @@ Two-factor authentication: Use two different things to authenticate you, usualy 
 Kerberos: Network auth protocol, auth over non-secure network. Both client and server identifies eachother. Protect against eavesdropping and replay attack, not timing.
 Needham-Schroeder: Like Kerberos, but uses nounces instead of timestamps.
 7 touchpoints: Code review, Architectural risk, Penetration test, Risk-based security tests, Abuse cases, security requirements, security operations
+Caprass: Code review, Architectural risk, Penetration test, Risk-based security tests, Abuse cases, security requirements, security operations
 Access Control Lists: Who can access what.
 Groups vs roles ACL: A group is a list of principals, a role is one or more principals that a role may use.
 Sandboxing: Running stuff in a seperate container.
@@ -37,3 +38,14 @@ Zero-day vulnerability: A vulnerability that currently has no fix.
 Attack tree: A tree which describes the current threats to a system.
 Risk management framework: Categorize, Select, Implement, Assess, Authorize, Monitor
 Three pillars: Risk management, Touchpoints, Knowledge
+Framework: Politcy, what you want to achive, Mechanism, how you will implement, Assurance, the amount of trust on one mech, Incentive, the motive for people to do job properly.
+OWASP top 10: Injection, weak authentication, XSS, IDOR, Security misconf, Sensetive data exposure, Top level access control, CSRF, Known vulnerabilities, Unvalidated redirects and forwards.
+Race conditions: Two people trying to change something at the sametime, which will result in one getting the wrong value.
+Timing attack: Take the time before a prompt that validates a string cancel, this way you can find out how long it takes for a password to fail.
+Attack vector: Path or means by which a hacker (or cracker) can gain access to a computer or network server 
+Security theater: Security theater is the practice of investing in countermeasures intended to provide the feeling of improved security while doing little or nothing to actually achieve it
+One-time pad: Encryption technique that encrypts plaintext paired with a random secret key.
+Threat modeling process: Identify critical assets, Decompose the system, Identify possible points of attack, Identify threats, Categorise/prioritise the threats, Mitigate.
+Misuse case: Describes the process of executing a malicious act against a system, while use case can be used to describe any action taken by the system.
+BSIMM: Compare your security practice against other companies
+OpenSAMM: Compare your security practices against best practice.
