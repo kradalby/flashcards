@@ -72,7 +72,7 @@ window.addEventListener('load', function () {
             "": "",
         }
     }
-    Cards.loadData('tdt4175.json')
+    Cards.loadData('tdt4237.json')
     var derp = function () {
         var descElement = document.querySelector("#description").children[0]
         if (descElement.hidden) {
